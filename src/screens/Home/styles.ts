@@ -12,5 +12,7 @@ export const styles = StyleSheet.create({
     input: {flex: 1, height: 56,  backgroundColor: "#fff", borderRadius: 7, color: "#000", marginRight: 12, padding: 16, fontSize: 16},
     button:{width: 56, height: 56, borderRadius: 7, backgroundColor: "#31CF", alignItems: 'center', justifyContent: 'center'},
     buttonText:{color: "#fff8", fontSize:35},
-    containerInput: { width: '100%', flexDirection: "row", marginTop:28, marginBottom:28 }
+    containerInput: { width: '100%', flexDirection: "row", marginTop:28, marginBottom:28 },
+    listEmptyText: {flex:1, color: "#8c8d8c", textAlign: "center", }
+
 });
