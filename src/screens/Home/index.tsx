@@ -19,6 +19,10 @@ export function Home(){
     setParticipantName("");
   }
   function handleParticipantRemove(name: string){
+
+    setParticipants(prevState => prevState.filter(participants => participants != name))
+    
+    return;
     Alert.alert("Remover", 
                 `Deseja remover o participante ${name}?`, 
                 [
